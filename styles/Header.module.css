@@ -1,0 +1,91 @@
+.header {
+    background-size: cover;
+    background-image: url(/background.png);
+    height: 100vh;
+   padding: 10px 50px;
+}
+
+
+.topheader {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 24px;
+    color: #fff;
+    font-family: avenir;
+    text-transform: uppercase;
+}
+
+.header li {
+    list-style: none;
+
+}
+
+.iconTop {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+
+}
+.headerBottom h3{
+text-transform: uppercase;
+font-weight: normal;
+font-size: 17px
+}
+
+.headerBottom {
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: 650px 50px 40px;
+    
+}
+
+.boutonheader {
+    width:400px
+}
+
+.headerBottom a{
+width: 150px;
+height: 45px;
+border-radius: 6px;
+border: none;
+font-size: 12px;
+font-weight: 600;
+background-color: white;
+cursor: pointer;
+transition-duration: 1s;
+color:black;
+text-decoration: none;
+text-align: center;
+padding: 15px;
+margin: 20px;
+
+}
+.headerBottom a:hover{
+    width: 150px;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: black;
+    cursor: pointer;
+    transition-duration: 1s;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    
+    }

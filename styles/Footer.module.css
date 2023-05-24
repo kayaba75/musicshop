@@ -1,0 +1,17 @@
+.footer{
+    background-color: black;
+    color:white;
+    height:200px;
+}
+.footer ul{
+    display:flex;
+    align-items: center;;
+    justify-content: space-between;
+   
+}
+
+.footer li{
+    list-style: none;
+     text-decoration: center;
+
+}

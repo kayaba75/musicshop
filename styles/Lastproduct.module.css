@@ -1,0 +1,57 @@
+.lastproduct{
+    background-color: white;
+    width:100vw;
+    font-family: avenir;
+    
+   
+
+}
+.lastcontent {
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    padding: 30px;
+    text-decoration: center;
+    align-items: center;    
+}
+.lastcontent h3{
+    text-transform: uppercase;
+font-weight: normal;
+font-size: 17px;
+
+}
+
+.lastcontent a{
+    width: 150px;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: black;
+    cursor: pointer;
+    transition-duration: 1s;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    margin-top:10px;
+    
+    
+    
+    }
+    .lastcontent a:hover{
+        width: 150px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    }

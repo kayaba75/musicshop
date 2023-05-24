@@ -1,0 +1,45 @@
+
+
+.Content{
+ 
+    display: inline-block;
+    flex-direction: row;
+width:80vh;
+justify-content: center;
+margin:80px
+
+}
+
+
+.Content a{
+    width: 150px;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: black;
+    cursor: pointer;
+    transition-duration: 1s;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+position:absolute;
+  } 
+
+  .Description{
+    position:absolute;
+    margin-top:550px;
+    margin-left: 20px;
+  }
+  /*.productAbsolute{
+  position:absolute;
+    width:300px ;
+
+    height:60px;
+    margin-left:30px;
+    margin-top: -120px
+  } */
+
+  
